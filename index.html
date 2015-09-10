@@ -1,157 +1,168 @@
-<!DOCTYPE HTML>
-<!--
-	Linear by TEMPLATED
-    templated.co @templatedco
-    Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
--->
-<html>
-	<head>
-		<title>Linear by TEMPLATED</title>
-		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-		<meta name="description" content="" />
-		<meta name="keywords" content="" />
-		<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,700,500,900' rel='stylesheet' type='text/css'>
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-		<script src="js/skel.min.js"></script>
-		<script src="js/skel-panels.min.js"></script>
-		<script src="js/init.js"></script>
-		<noscript>
-			<link rel="stylesheet" href="css/skel-noscript.css" />
-			<link rel="stylesheet" href="css/style.css" />
-			<link rel="stylesheet" href="css/style-desktop.css" />
-		</noscript>
-	</head>
-	<body class="homepage">
-
-	<!-- Header -->
-		<div id="header">
-			<div id="nav-wrapper"> 
-				<!-- Nav -->
-				<nav id="nav">
-					<ul>
-						<li class="active"><a href="index.html">Homepage</a></li>
-						<li><a href="left-sidebar.html">Left Sidebar</a></li>
-						<li><a href="right-sidebar.html">Right Sidebar</a></li>
-						<li><a href="no-sidebar.html">No Sidebar</a></li>
-					</ul>
-				</nav>
-			</div>
-			<div class="container"> 
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">		
+        <title>ChienYu Lai</title>
+        <meta name="description" content="Mock up this website just a vanity for jobs :) ">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">		
 				
-				<!-- Logo -->
-				<div id="logo">
-					<h1><a href="#">Linear</a></h1>
-					<span class="tag">By TEMPLATED</span>
+		<!-- initial css -->
+        <link rel="stylesheet" href="css/normalize.min.css">
+        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+		
+		<!-- jquery -->
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+		
+		<!-- bootstrap framework -->
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<script src="js/bootstrap.min.js"></script>
+		
+		<!-- customer style -->
+		<link rel="stylesheet" href="css/main.css">
+		
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <div class="nav">
+			<a href="#hero" class="scroll">about me</a>
+			<a href="#projects" class="scroll">projects</a>
+			<a href="#experience" class="scroll">experience</a>
+		</div>		
+		
+		<section id="hero">
+			<div class="hero-block">
+				<img class="img-circle" src="img/profile.jpg" alt="" width="200" height="200" class="hero-image">				
+				<h3 class="hero-header">Hello, I'm Chien-Yu Lai. </h3>
+				<p>I'm a web developer, build website in PHP, Jquey, Javascript, <br>
+				I love web design and innovation stuff, <br/>
+				and I have been start to learn <a target="_blank" href="http://jerry80409.logdown.com/posts/search?utf8=%E2%9C%93&q=laravel">laravel</a> 
+				and <a target="_blank" href="http://jerry80409.logdown.com/posts/search?utf8=%E2%9C%93&q=node">Node.js</a>.</p>
+								
+			</div>			
+			<a href="#projects" class="scroll"><span class="down-arrow"></span></a>
+		</section>
+		
+		<section id="projects">				
+			<div class="block">
+				<div class="container">
+					<h1 class="section-title">Projects</h1>
+					<div class="row">
+						<div class="col-md-4">
+							<div class="list">
+								<img src="img/pj/02_hello_puppy.png" alt="hello puppy" class="img-responsive img-rounded">
+								<span class="label label-success">UX</span>
+								<span class="label label-primary">Android</span> 
+								<span class="label label-primary">AndEngine</span>						
+								<p>一開始是想做一個改善低頭族狀況的 APP ，研究所接觸 UX 之後利用<a href=""> Cultural Probe </a>的經驗收集方式，
+								透過寵物散步的經驗，重新連結人與人在公共空間中的互動，APP 開發使用
+								<a href="http://www.andengine.org/" target="_blank"> AndEngine Framewrok </a> 來創建。</p>
+							</div>
+						</div>
+						
+						<div class="col-md-4">
+							<div class="list">
+								<img src="img/pj/03_karesansui.jpg" alt="karesansui" class="img-responsive img-rounded">
+								<span class="label label-primary">AS3.0</span> 
+								<span class="label label-primary">Flash</span>
+								<span class="label label-primary">Projection</span>
+								<a href="http://www.slideshare.net/jerry80409/final-35953697" target="_blank"><span class="label label-success">PPT</span></a>
+								<p>仿造日式的枯山水造景，把實際環境中的砂石與自然材質，結合多媒體的影音與視訊鏡頭，
+								重新呈現虛實整合的枯山水意境，使用 AS3.0 與 Flash、AE，第一次與設計系的朋友合作，滿有成就感的。</p>
+							</div>
+						</div>
+						
+						
+						<div class="col-md-4">
+							<div class="list">
+								<img src="img/pj/04_led_flowers.png" alt="LED Flower" class="img-responsive img-rounded">
+								<span class="label label-primary">PET Bottles</span> 
+								<span class="label label-primary">LED</span>
+								<p>重新思考 PET 對環境的影響，並透過回收的寶特瓶與廢電池與 LED，賦予無機的 PET 材質新的有機生命。</p>
+							</div>
+						</div>						
+						
+						<div class="col-md-4">
+							<div class="list">
+								<img src="img/pj/05_kuas-online.jpg" alt="KUAS MMORPG" class="img-responsive img-rounded">
+								<span class="label label-primary">JAVA</span> 
+								<span class="label label-primary">MySQL</span>
+								<p>大學時 MMORPG 正流行，主要的概念是想把學校的學習資源與 MMORPG 做結合，最後成為專題的題目，介面設計取材於學校的實體環境，
+								使用 Apache 為AP，MySQL、JAVA、JDBC、SWING 等技術。</p>
+							</div>
+						</div>
+						
+						
+						<div class="col-md-4">
+							<div class="list">
+								<img src="img/pj/06_blackwhite.jpg" alt="Apple chess" class="img-responsive img-rounded">
+								<span class="label label-primary">JAVA</span> 								
+								<p>黑白棋、蘋果棋。</p>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
-		</div>
-
-	<!-- Featured -->
-		<div id="featured">
-			<div class="container">
-				<header>
-					<h2>Welcome to Linear</h2>
-				</header>
-				<p>This is <strong>Linear</strong>, a responsive HTML5 site template freebie by <a href="http://templated.co">TEMPLATED</a>. Released for free under the <a href="http://templated.co/license">Creative Commons Attribution</a> license, so use it for whatever (personal or commercial) &ndash; just give us credit! Check out more of our stuff at <a href="http://templated.co">our site</a> or follow us on <a href="http://twitter.com/templatedco">Twitter</a>.</p>
-				<hr />
-				<div class="row">
-					<section class="4u">
-						<span class="pennant"><span class="fa fa-briefcase"></span></span>
-						<h3>Maecenas luctus lectus</h3>
-						<p>Curabitur sit amet nulla. Nam in massa. Sed vel tellus. Curabitur sem urna, consequat vel, suscipit in, mattis placerat, nulla. Sed ac leo.</p>
-						<a href="#" class="button button-style1">Read More</a>
-					</section>
-					<section class="4u">
-						<span class="pennant"><span class="fa fa-lock"></span></span>
-						<h3>Maecenas luctus lectus</h3>
-						<p>Donec ornare neque ac sem. Mauris aliquet. Aliquam sem leo, vulputate sed, convallis at, ultricies quis, justo. Donec magna.</p>
-						<a href="#" class="button button-style1">Read More</a>
-					</section>
-					<section class="4u">
-						<span class="pennant"><span class="fa fa-globe"></span></span>
-						<h3>Maecenas luctus lectus</h3>
-						<p>Curabitur sit amet nulla. Nam in massa. Sed vel tellus. Curabitur sem urna, consequat vel, suscipit in, mattis placerat, nulla. Sed ac leo.</p>
-						<a href="#" class="button button-style1">Read More</a>
-					</section>
-
-				</div>
+		</section>
+		
+		<section id="experience">
+			<div class="block">
+				<div class="container">
+					<h1 class="section-title">Experience</h1>
+					<div class="row">
+						<div class="col-md-4">
+							<div class="list">
+								<img src="img/exp/04_huede.jpg" alt="" class="img-responsive img-rounded">
+								<span class="label label-primary">2014</span> 
+								<span class="label label-primary">Inc</span>
+								<p>第一份正職，研究開發工程師，主要從事網站的開發與設計，兼網站伺服器管理等事務，
+								主要使用 PHP、CodeIgniter、JQuery 等技術，設計並維護 API，以供行動設備存取，並上傳到醫院後台。
+								大部分皆為獨立作業，獲益良多。</p>
+							</div>
+						</div>
+					
+						<div class="col-md-4">
+							<div class="list">
+								<img src="img/exp/01_woof.jpg" alt="WWOOF" class="img-responsive img-rounded">
+								<span class="label label-primary">2011</span> 
+								<span class="label label-primary">WWOOF</span>
+								<p>第一次長途旅行，與 IMDR Lab 的夥伴參加 WWOOF 國際志工，位於西班牙的 Bilbao 的郊區，
+								學習有機栽培的精神，也順便實習一下如何當背包客，發生了很多事，看了許多安東尼高第的建築與作品。</p>
+							</div>
+						</div>
+												
+						<div class="col-md-4">
+							<div class="list">
+								<img src="img/exp/02_workshop.jpg" alt="workshop" class="img-responsive img-rounded">
+								<span class="label label-primary">2010</span> 
+								<span class="label label-primary">workshop</span>
+								<p>第一次參加實作型的 workshop 用 Java、PureData、Processing 來 Hack Mario，
+								才知道原來程式語言除了C、C++、JAVA、Assember 之外還有很多有趣的語言，在那之後重新喜歡上寫程式。</p>
+							</div>
+						</div>
+						
+					</div>
+				</div>				
 			</div>
-		</div>
+		</section>
+		
+		<section id="footer">
+			<div class="block">			
+				<p>&copy; 2014 JuLai&nbsp;|&nbsp;Theame design by <a href="http://getbootstrap.com/">Bootstrap</a></p>
+			</div>			
+		</section>
 
-	<!-- Main -->
-		<div id="main">
-			<div id="content" class="container">
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
 
-				<div class="row">
-					<section class="6u">
-						<a href="#" class="image full"><img src="images/pic01.jpg" alt=""></a>
-						<header>
-							<h2>Mauris vulputate dolor</h2>
-						</header>
-						<p>In posuere eleifend odio. Quisque semper augue mattis wisi. Maecenas ligula. Pellentesque viverra vulputate enim. Aliquam erat volutpat. Donec leo, vivamus fermentum nibh in augue praesent a lacus at urna congue rutrum.</p>
-					</section>				
-					<section class="6u">
-						<a href="#" class="image full"><img src="images/pic02.jpg" alt=""></a>
-						<header>
-							<h2>Mauris vulputate dolor</h2>
-						</header>
-						<p>In posuere eleifend odio. Quisque semper augue mattis wisi. Maecenas ligula. Pellentesque viverra vulputate enim. Aliquam erat volutpat. Donec leo, vivamus fermentum nibh in augue praesent a lacus at urna congue rutrum.</p>
-					</section>				
-				</div>
-
-				<div class="row">
-					<section class="6u">
-						<a href="#" class="image full"><img src="images/pic03.jpg" alt=""></a>
-						<header>
-							<h2>Mauris vulputate dolor</h2>
-						</header>
-						<p>In posuere eleifend odio. Quisque semper augue mattis wisi. Maecenas ligula. Pellentesque viverra vulputate enim. Aliquam erat volutpat. Donec leo, vivamus fermentum nibh in augue praesent a lacus at urna congue rutrum.</p>
-					</section>				
-					<section class="6u">
-						<a href="#" class="image full"><img src="images/pic04.jpg" alt=""></a>
-						<header>
-							<h2>Mauris vulputate dolor</h2>
-						</header>
-						<p>In posuere eleifend odio. Quisque semper augue mattis wisi. Maecenas ligula. Pellentesque viverra vulputate enim. Aliquam erat volutpat. Donec leo, vivamus fermentum nibh in augue praesent a lacus at urna congue rutrum.</p>
-					</section>				
-				</div>
-			
-			</div>
-		</div>
-
-	<!-- Tweet -->
-		<div id="tweet">
-			<div class="container">
-				<section>
-					<blockquote>&ldquo;In posuere eleifend odio. Quisque semper augue mattis wisi. Maecenas ligula. Pellentesque viverra vulputate enim. Aliquam erat volutpat.&rdquo;</blockquote>
-				</section>
-			</div>
-		</div>
-
-	<!-- Footer -->
-		<div id="footer">
-			<div class="container">
-				<section>
-					<header>
-						<h2>Get in touch</h2>
-						<span class="byline">Integer sit amet pede vel arcu aliquet pretium</span>
-					</header>
-					<ul class="contact">
-						<li><a href="#" class="fa fa-twitter"><span>Twitter</span></a></li>
-						<li class="active"><a href="#" class="fa fa-facebook"><span>Facebook</span></a></li>
-						<li><a href="#" class="fa fa-dribbble"><span>Pinterest</span></a></li>
-						<li><a href="#" class="fa fa-tumblr"><span>Google+</span></a></li>
-					</ul>
-				</section>
-			</div>
-		</div>
-
-	<!-- Copyright -->
-		<div id="copyright">
-			<div class="container">
-				Design: <a href="http://templated.co">TEMPLATED</a> Images: <a href="http://unsplash.com">Unsplash</a> (<a href="http://unsplash.com/cc0">CC0</a>)
-			</div>
-		</div>
-
-	</body>
+        
+    </body>
 </html>

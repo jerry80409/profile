@@ -1,0 +1,353 @@
+/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,800italic,400,700,800);
+@import url(http://fonts.googleapis.com/earlyaccess/cwtexyen.css);
+
+body {
+	font-family: 'Open Sans', 'cwTeXYen', 'Microsoft JhengHei', sans-serif;
+	background-color: #f5f6f7;
+	color: #262e2a;
+	font-size: 20px;
+	line-height: 36px;
+	text-align: center;
+	font-weight: 300; 
+	}
+
+nav ul {
+	list-style: none; 
+	}
+  
+blockquote, q {
+	quotes: none; 
+	}	
+  
+blockquote:before, blockquote:after, q:before, q:after {
+	content: none; 
+	}
+  
+hr {
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #ccc;
+	margin: 1em 0;
+	padding: 0; 
+	}
+
+*, *:before, *:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	border: none; 
+	}
+
+a:link,
+a:visited,
+a:active {
+	font-weight: 600;
+	color: #f5f6f7;
+	text-decoration: none; 
+	}
+	
+a:link:hover,
+a:visited:hover,
+a:active:hover {
+	color: #e1e1e1;
+	-webkit-transition: color 1s;
+	-moz-transition: color 1s;
+    -ms-transition: color 1s;
+    -o-transition: color 1s;
+    transition: color 1s; 
+	}
+
+.nav {
+	position: fixed;
+	width: 30px;
+	height: 84px;
+	z-index: 100;
+	right: 0;
+	top: 50%;
+	margin-top: -42px; 
+	}
+  
+.nav a {
+    text-indent: -9999px;
+    display: block;
+    width: 14px;
+    height: 14px;
+    background: rgba(245, 246, 247, 0.8);
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    margin-bottom: 20px;
+    -webkit-transition: background 0.5s;
+    -moz-transition: background 0.5s;
+    -ms-transition: background 0.5s;
+    -o-transition: background 0.5s;
+    transition: background 0.5s; 
+	}
+	
+.nav a:hover {
+    background: #E66371;
+    -webkit-transition: background 1s;
+    -moz-transition: background 1s;
+    -ms-transition: background 1s;
+    -o-transition: background 1s;
+    transition: background 1s; 
+	}
+
+.mb-7 {
+	margin-bottom: 70px; 
+	}
+  
+.centered {
+	text-align: center;
+	}
+
+
+/* ==========================================================================
+   Sections styles
+   ========================================================================== */
+
+#hero,
+#projects,
+#misc {
+	position: relative;
+}
+
+.hero-block {	
+	height: 650px;
+	width: 100%;
+	position: relative;
+	padding: 100px 0 100px 0;	
+	//top: 50%;
+	//margin-top: -195px;	
+}
+
+.hero-image {
+	width: auto;
+	height: auto;
+	margin-bottom: 70px;
+}
+
+.block {
+	padding: 1em 0 0 0;
+	margin: 0;
+	text-align: left;
+	font-size: 18px;
+	font-weight: 300;
+}
+
+.block img {
+	width: 350px;
+	height: 250px;
+}
+
+.block span {
+	font-size: 10px;
+}
+
+.block a {	
+	color: #337ab7;
+	font-size: 16px;
+}
+
+.block a:link:hover,
+.block a:visited:hover,
+.block a:active:hover {
+	color: #d9534f;
+	-webkit-transition: color 1s;
+	-moz-transition: color 1s;
+    -ms-transition: color 1s;
+    -o-transition: color 1s;
+    transition: color 1s;
+}
+
+.block p {
+	text-align: justify;
+}
+
+.block .container .col-md-4 {
+	margin-bottom: 1em;
+}
+
+.block .container .col-md-4 .list {
+	height: 480px;	
+}
+
+.footer-block {
+	height: 180px;
+}
+  
+.section-title {
+	font-weight: 800;
+	margin: 1em 0 1em 0;
+}
+
+#hero {
+	background-color: #2475A4;
+	color: #f5f6f7;
+}
+
+#projects {
+	background: #F1CBB4; 
+}
+
+#experience {
+	background: #7AB6DB; 
+}
+
+#footer {
+	background: #474e5d; 
+	color: #fff;
+}
+
+#footer .block p {
+	text-align: center;
+}
+
+  
+.down-arrow {
+	position: absolute;
+	bottom: 60px;
+	left: 50%;
+	margin-left: -12px;
+	width: 25px;
+	height: 14px;
+	background: url("../img/arrow.png") no-repeat; 
+}
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (max-width: 1000px) {
+	ul.slides li {
+		width: 33%; 
+		}
+}
+
+@media only screen and (max-width: 767px) {
+	ul.slides li {
+		width: 50%; 
+		} 
+}
+		
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
